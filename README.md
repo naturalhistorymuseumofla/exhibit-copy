@@ -39,9 +39,8 @@ BEFORE                              AFTER
 └── ABC Exhibit                     └── XYZ Exhibit   
     ├── ABC Photos                      ├── XYZ Photos
     │   └── ABC.jpg          -->        │   └── XYZ.jpg
-    ├── ABC File                        └── XYZ File   
-    │    └── ABC_file.txt                   └── XYZ_file.txt
-    └── ABC File                    
-        └── Other.txt
+    └── ABC File                        └── XYZ File   
+         │── ABC_file.txt                   └── XYZ_file.txt                 
+         └── Other.txt
  ```
 
