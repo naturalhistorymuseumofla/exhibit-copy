@@ -4,6 +4,7 @@ import argparse
 
 def main(old_string, new_string, dir):
     renames = {}
+    dir = Path(dir[0])
     if dir.exists():
         paths = [x for x in dir.glob(f'**/{old_string}*')]
         paths.insert(0, dir.resolve())
@@ -14,11 +15,11 @@ def main(old_string, new_string, dir):
                 new_path = path.parent.joinpath(f'{new_string}' + path.name[3:])
             if path.is_dir():
                 renames[path] = new_path
-                new_path.mkdir(parents=True, exist_ok=True)
+                new_path.mkdir(parents=True, exist_ok=True) 
             else:
                 path.replace(new_path)
     else:
-        print('Enter a file path that exists')
+        print('The filepath you entered does not seem to exist.')
 
 
 if __name__ == "__main__":
@@ -44,7 +45,7 @@ subdirectories/files, all with a specified letter prefix (see below).
         'dir',
         help="Optional argument that points to directory where files and folders are to be copied",
         nargs='*',
-        default=Path('.')
+        default='.'
     )
     args = parser.parse_args()
     main(**vars(args))
