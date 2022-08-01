@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5304e981-8e93-4ec8-b0ee-c625c7c0109b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exhibit-copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/exhibit-copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macOS/copy.zip" beforeDir="false" afterPath="$PROJECT_DIR$/macOS/copy.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
